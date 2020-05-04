@@ -1,0 +1,9 @@
+.info {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.nome-completo {
+	padding-top: 15px;
+}

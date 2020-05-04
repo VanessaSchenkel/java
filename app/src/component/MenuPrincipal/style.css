@@ -1,0 +1,13 @@
+.mi-amigo {
+	position: fixed;
+	right: 10px;
+	top: 15px;
+	font-weight: bolder;
+}
+
+.logo {
+	position: fixed;
+	right: 130px;
+	top: 6px;
+	height: 30px;
+}

@@ -1,0 +1,17 @@
+.container-formulario {
+	position: absolute;
+	top: 120px;
+	right: 150px;
+	display: flex;
+	flex-direction: column;
+}
+
+.divisao-url {
+	display: flex;
+	flex-direction: column;
+	margin: 20px 0;
+}
+
+.escolha-privacidade {
+	margin-bottom: 20px;
+}

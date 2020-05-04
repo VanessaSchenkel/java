@@ -1,0 +1,15 @@
+.container-novo-comentario {
+	margin-top: 15px;
+	padding-top: 150px;
+	position: relative;
+	left: 850px;
+	bottom: 500px;
+	height: 100px;
+	width: 350px;
+}
+
+.curtir-postagem {
+	position: relative;
+	left: 515px;
+	bottom: 200px;
+}

@@ -1,0 +1,33 @@
+debug: true
+
+security:
+  jwt:
+    secret: "crescer-jwt"
+    expiration: 86400000 # 1 dia em milisegundos
+  public:
+    path: "/public/**"
+
+logging:
+  level:
+    org.hibernate.SQL: DEBUG
+    org.hibernate.type.descriptor.sql.BasicBinder: TRACE
+
+server:
+    port: 8090
+    servlet:
+      context-path: /tcc-java
+
+spring:
+  jpa:
+    database-platform: org.hibernate.dialect.Oracle10gDialect
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+  datasource:
+    url: jdbc:oracle:thin:@192.168.56.101:1521/XE
+    username: REDESOCIAL
+    password: REDESOCIAL
+    driver-class-name: oracle.jdbc.OracleDriver

@@ -1,0 +1,17 @@
+.tela-principal {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 100px;
+	justify-content: center;
+}
+
+.login-tela {
+	display: flex;
+	flex-direction: column;
+	padding: 100px;
+}
+
+.logo-grande {
+	height: 90px;
+}
